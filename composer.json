@@ -1,0 +1,20 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Common\\": "../common/Common/",
+            "Parse\\": "../common/Parse/",
+            "SocNet\\": "../common/SocNet/",
+            "PB\\": "../common/PB/"
+        }
+    }
+}
